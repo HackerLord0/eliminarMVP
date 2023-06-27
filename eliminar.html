@@ -7,12 +7,38 @@
 
       body {
         font-family: "Poppins", sans-serif;
+        margin: 0;
       }
-
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 112px;
+        background-color: #001139;
+        margin: 0;
+        padding: 0;
+      }
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        background-color: #001139;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .logotipo {
+        width: 230px;
+      }
+      .logotipofooter {
+        width: 230px;
+      }
       .container {
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
+        margin-bottom: 100px;
       }
 
       .image {
@@ -60,16 +86,25 @@
     </style>
   </head>
   <body>
+    <!--Header-->
+
+    <header>
+      <img
+        style="margin: 10px 20px 0px 20px"
+        class="logotipo"
+        src="https://www.motelesvp.com/img/header/logo_motelesvp.svg"
+        alt="Logo Moteles VP"
+      />
+    </header>
+
+    <!--/Header-->
+
     <div class="container">
       <div class="text">
         <p class="h3">¿Cómo eliminar mi cuenta de Mi MVP?</p>
         <ul class="instructions">
-          <li>
-            Abre tu aplicación Mi MVP desde tu dispositivo móvil.
-          </li>
-          <li>
-            Inicia sesión en tu aplicación Mi MVP.
-          </li>
+          <li>Abre tu aplicación Mi MVP desde tu dispositivo móvil.</li>
+          <li>Inicia sesión en tu aplicación Mi MVP.</li>
           <li>
             <span
               >Accede a la sección Perfil en la app Mi MVP designada con este
@@ -77,17 +112,26 @@
             >
             <img class="icon-image" src="Icono.png" alt="Ícono" />
           </li>
-          <li>
-            Selecciona Eliminar Cuenta.
-          </li>
-          <li>
-            Confirma que deseas eliminar tu cuenta.
-          </li>
+          <li>Selecciona Eliminar Cuenta.</li>
+          <li>Confirma que deseas eliminar tu cuenta.</li>
         </ul>
       </div>
       <div class="img">
         <img class="image" src="content.png" alt="Imagen" />
       </div>
     </div>
+
+    <!--Footer-->
+
+    <footer>
+      <img
+        style="margin: 10px 20px 0px 20px"
+        class="logotipofooter"
+        src="https://www.motelesvp.com/img/header/logo_motelesvp.svg"
+        alt="Logo Moteles VP"
+      />
+    </footer>
+
+    <!--/Footer-->
   </body>
 </html>
